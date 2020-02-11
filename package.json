@@ -1,0 +1,24 @@
+{
+  "name": "jesttesting",
+  "version": "1.0.0",
+  "description": "Learn testing with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MBenedicte/jestTesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MBenedicte/jestTesting/issues"
+  },
+  "homepage": "https://github.com/MBenedicte/jestTesting#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
