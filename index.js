@@ -10,6 +10,15 @@ app.post('/post', (req, res) => {
     status: 200
   });
 });
+app.put('/put', (req, res) => {
+  const { newName, newPhone } = req.body;
+
+  res.status(200).send({
+    name: newName,
+    phone: newPhone,
+    status: 200
+  });
+});
 app.get('/', (req, res) => {
   res.status(200).json({
     message: 'app is running'
